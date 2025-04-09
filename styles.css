@@ -71,7 +71,6 @@ nav {
   box-sizing: border-box;
 }
 
-/* The nav section will contain 2 divs. */
 .navleft {
   width: 493px;
   height: 48px;
@@ -132,13 +131,44 @@ main {
   width: 490px;
   height: 300px;
   background-color: #b19cd9;
-  /* background-color: #d8bfd8; */
-  /* background-color: cyan; */
-  /* border: 1px solid #800080; */
   padding: 10px;
   margin: 5px;
   float: left;
 }
+
+.maintopleft button {
+  color: #9370db;
+  background-color: white;
+  font-weight: bold;
+  outline: none;
+  border: 1px solid #9370db;
+  width: 35%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.maintopleft button:hover {
+  background-color: #6a0dad;
+  color: white;
+}
+
+.maintopleft-output {
+  margin-top: 15px;
+  color: white;
+  font-size: 1.1rem;
+}
+/* 
+.mainright {
+  width: 490px;
+  height: 300px;
+  background-color: #b19cd9;
+  padding: 10px;
+  margin: 5px;
+  float: left;
+} */
 
 .mainright {
   width: 490px;
@@ -150,6 +180,32 @@ main {
   padding: 10px;
   margin: 5px;
   float: right;
+}
+
+.mainright button {
+  color: #9370db;
+  background-color: white;
+  font-weight: bold;
+  outline: none;
+  border: 1px solid #9370db;
+  width: 35%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.mainright button:hover {
+  background-color: #6a0dad;
+  color: white;
+}
+
+.mainright-output {
+  margin-top: 15px;
+  /* color: white; */
+  color: #6a0dad;
+  font-size: 1.1rem;
 }
 
 .mainbottomleft {
