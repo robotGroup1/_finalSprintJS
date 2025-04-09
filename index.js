@@ -182,3 +182,30 @@ function loanAnalysis() {
 
   document.getElementById("mainright-output").innerHTML = results;
 }
+
+const paletteColors = [
+  ["#F9C5D1", "#FCD5CE", "#F8EDEB", "#D8E2DC", "#FFE5D9"],
+  ["#EFD6AC", "#B7B7A4", "#E2CFC3", "#CDB4DB", "#FFC8DD"],
+  ["#A2D2FF", "#BDE0FE", "#CDB4DB", "#FFAFCC", "#D8E2DC"],
+  ["#FDE2E4", "#FFF0F3", "#FAD2E1", "#E2ECE9", "#BFD8BD"],
+  ["#FFF1E6", "#FAD2E1", "#FFCBF2", "#B5EAD7", "#C7CEEA"],
+  ["#FFD6E0", "#FFC4D6", "#FFB7C5", "#FF8FAB", "#FFC8DD"],
+  ["#FFEE93", "#FCF5C7", "#A0CED9", "#ADF7B6", "#FFC09F"],
+  ["#E2F0CB", "#B5EAD7", "#C7CEEA", "#FFDAC1", "#FFB7B2"],
+  ["#D4E09B", "#F6F4D2", "#CBDFBD", "#F19C79", "#A44A3F"],
+  ["#E2F3F4", "#D1E5F2", "#DAC4F7", "#F7C6E2", "#F4D4D4"]
+];
+
+function generateColorPalette() {
+  const colorPaletteDiv = document.getElementById("colorPalette");
+  colorPaletteDiv.innerHTML = "";
+
+  const randomSet = paletteColors[Math.floor(Math.random() * paletteColors.length)];
+
+  randomSet.forEach(color => {
+    const colorBox = document.createElement("div");
+    colorBox.classList.add("color-box");
+    colorBox.style.backgroundColor = color;
+    colorPaletteDiv.appendChild(colorBox);
+  });
+}

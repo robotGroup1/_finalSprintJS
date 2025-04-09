@@ -5,7 +5,6 @@
 }
 
 body {
-  /* background-color: aquamarine; */
   background-color: #f5f7fa;
 }
 
@@ -14,12 +13,10 @@ a {
   color: #ffffff;
   font-size: 1rem;
   padding: 10px 15px;
-  /* display: inline-block; */
 }
 
 .mainbox {
   width: 1006px;
-  /* height: 600px; will be removed later */
   background-color: #ffffff;
   border: 3px solid #3a0a4a;
   margin: auto;
@@ -40,7 +37,6 @@ header {
 .tophead {
   width: 1000px;
   height: 40px;
-  /* background-color: #b19cd9; */
   background-color: #9370db;
   color: #fff;
   display: flex;
@@ -121,7 +117,6 @@ nav {
 main {
   width: 1000px;
   height: 625px;
-  /* background-color: lightyellow; */
   background-color: #f5f0ff;
 }
 
@@ -160,23 +155,11 @@ main {
   color: white;
   font-size: 1.1rem;
 }
-/* 
-.mainright {
-  width: 490px;
-  height: 300px;
-  background-color: #b19cd9;
-  padding: 10px;
-  margin: 5px;
-  float: left;
-} */
 
 .mainright {
   width: 490px;
   height: 610px;
-  /* background-color: #b19cd9; */
   background-color: #e6e6fa;
-  /* background-color: lightgray; */
-  /* border: 1px solid #4b0082; */
   padding: 10px;
   margin: 5px;
   float: right;
@@ -203,7 +186,6 @@ main {
 
 .mainright-output {
   margin-top: 15px;
-  /* color: white; */
   color: #6a0dad;
   font-size: 1.1rem;
 }
@@ -212,22 +194,55 @@ main {
   width: 490px;
   height: 300px;
   background-color: #b19cd9;
-  /* background-color: lightseagreen; */
-  /* border: 1px solid #663399; */
   padding: 10px;
   margin: 5px;
   float: left;
 }
 
+.mainbottomleft button {
+  color: #9370db;
+  background-color: white;
+  font-weight: bold;
+  outline: none;
+  border: 1px solid #9370db;
+  width: 60%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.mainbottomleft button:hover {
+  background-color: #6a0dad;
+  color: white;
+}
+
+.mainbottomleft-palette {
+  margin-top: 1rem;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.color-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.color-box:hover {
+  transform: scale(1.1);
+}
+
+
 footer {
   width: 1000px;
   height: 80px;
   background-color: black;
-
   color: white;
-
-  /* padding: 30px 20px;
-  margin-top: 40px; */
 }
 
 .footer-box {
