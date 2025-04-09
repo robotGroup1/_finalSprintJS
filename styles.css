@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: #f5f7fa;
+  /* background-color: #f5f7fa; */
+  background-color: #F8F8F8;
 }
 
 a {
@@ -17,7 +18,7 @@ a {
 
 .mainbox {
   width: 1006px;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   border: 3px solid #3a0a4a;
   margin: auto;
   margin-top: 20px;
@@ -30,14 +31,16 @@ header {
   width: 1000px;
   margin: 0 auto;
   height: 200px;
-  background-color: #e6e6fa;
+  /* background-color: #e6e6fa; */
+  background-color: #88D8C0;
 }
 
 /* The header is made up of a message bar and the banner image. */
 .tophead {
   width: 1000px;
   height: 40px;
-  background-color: #9370db;
+  /* background-color: #9370db; */
+  background-color: #FF8C82;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -70,7 +73,8 @@ nav {
 .navleft {
   width: 493px;
   height: 48px;
-  background-color: #9370db;
+  /* background-color: #9370db; */
+  background-color: #FF8C82;
   float: left;
   display: flex;
   justify-content: space-evenly;
@@ -85,14 +89,16 @@ nav {
 }
 
 .navleft a:hover {
-  background-color: #6a0dad;
+  /* background-color: #6a0dad; */
+  background-color: #E67E73;
   border-radius: 5px;
 }
 
 .navright {
   width: 495px;
   height: 48px;
-  background-color: #9370db;
+  /* background-color: #9370db; */
+  background-color: #FF8C82;
   margin-left: 5px;
   float: right;
   display: flex;
@@ -111,13 +117,16 @@ nav {
 }
 
 .navright input[type="text"]:focus {
-  border-color: #6a0dad;
+  /* border-color: #6a0dad; */
+  border-color: #FF8C82;
+
 }
 
 main {
   width: 1000px;
   height: 625px;
-  background-color: #f5f0ff;
+  /* background-color: #f5f0ff; */
+  background-color: #FFFFFF;
 }
 
 /* The main section will contain 3 divs. */
@@ -125,18 +134,21 @@ main {
 .maintopleft {
   width: 490px;
   height: 300px;
-  background-color: #b19cd9;
+  /* background-color: #b19cd9; */
+  background-color: #88D8C0;
   padding: 10px;
   margin: 5px;
   float: left;
 }
 
 .maintopleft button {
-  color: #9370db;
-  background-color: white;
+  /* color: #9370db; */
+  color: white;
+  /* background-color: white; */
+  background-color: #FF8C82;
   font-weight: bold;
-  outline: none;
-  border: 1px solid #9370db;
+  border: none;
+  /* border: 1px solid #9370db; */
   width: 35%;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -146,31 +158,36 @@ main {
 }
 
 .maintopleft button:hover {
-  background-color: #6a0dad;
+  background-color: #E67E73; 
+  /* background-color: #6a0dad; */
   color: white;
 }
 
 .maintopleft-output {
   margin-top: 15px;
-  color: white;
+  /* color: white; */
+  color: #E67E73;
   font-size: 1.1rem;
 }
 
 .mainright {
   width: 490px;
   height: 610px;
-  background-color: #e6e6fa;
+  /* background-color: #e6e6fa; */
+  background-color: #88D8C0;
   padding: 10px;
   margin: 5px;
   float: right;
 }
 
 .mainright button {
-  color: #9370db;
-  background-color: white;
+  /* color: #9370db; */
+  color: white;
+  /* background-color: white; */
+  background-color: #FF8C82;
   font-weight: bold;
-  outline: none;
-  border: 1px solid #9370db;
+  border: none;
+  /* border: 1px solid #9370db; */
   width: 35%;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -180,31 +197,36 @@ main {
 }
 
 .mainright button:hover {
-  background-color: #6a0dad;
+  /* background-color: #6a0dad; */
+  background-color: #E67E73; 
   color: white;
 }
 
 .mainright-output {
   margin-top: 15px;
-  color: #6a0dad;
+  /* color: #6a0dad; */
+  color: #E67E73;
   font-size: 1.1rem;
 }
 
 .mainbottomleft {
   width: 490px;
   height: 300px;
-  background-color: #b19cd9;
+  /* background-color: #b19cd9; */
+  background-color: #88D8C0;
   padding: 10px;
   margin: 5px;
   float: left;
 }
 
 .mainbottomleft button {
-  color: #9370db;
-  background-color: white;
+  /* color: #9370db; */
+  color: white;
+  /* background-color: white; */
+  background-color: #FF8C82;
   font-weight: bold;
-  outline: none;
-  border: 1px solid #9370db;
+  border: none;
+  /* border: 1px solid #9370db; */
   width: 60%;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -214,7 +236,8 @@ main {
 }
 
 .mainbottomleft button:hover {
-  background-color: #6a0dad;
+  /* background-color: #6a0dad; */
+  background-color: #E67E73; 
   color: white;
 }
 
