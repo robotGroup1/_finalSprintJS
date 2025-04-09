@@ -223,5 +223,42 @@ footer {
   width: 1000px;
   height: 80px;
   background-color: black;
-  /* border-top: 3px solid gray; */
+
+  color: white;
+
+  /* padding: 30px 20px;
+  margin-top: 40px; */
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contact {
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-socials {
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+}
+
+.footer-socials-image {
+  width: 5%;
+  border: 1px solid red;
+}
+
+footer .copyright {
+  text-align: center;
+  font-size: 0.9em;
 }
